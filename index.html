@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="generator">
+            <div class="generator-header">
+                <form id="main-form">
+                    <input type="color" id="color-input">
+                    <select id="scheme-select">
+                        <option value="monochrome">Monochrome</option> 
+                        <option value="monochrome-dark">Monochrome-dark</option> 
+                        <option value="monochrome-light">Monochrome-light</option> 
+                        <option value="analogic">Analogic</option> 
+                        <option value="complement">Complement</option> 
+                        <option value="analogic-complement">Analogic-complement</option> 
+                        <option value="triad">Triad</option> 
+                        <option value="quad">quad</option> 
+                    </select>
+                    <button>Get color scheme</button>
+                </form>
+            </div>
+            <div class="generator-body">
+                <div id="generator-body-colors">
+                    <div class="clr-box" style="background: #0A3E31"></div>
+                    <div class="clr-box" style="background: #106B54"></div>
+                    <div class="clr-box" style="background: #159877"></div>
+                    <div class="clr-box" style="background: #1BC69B"></div>
+                    <div class="clr-box" style="background: #2FE4B7"></div>
+                </div>
+                <div id="generator-body-values">
+                    <div class="clr-val">#0A3E31</div>
+                    <div class="clr-val">#106B54</div>
+                    <div class="clr-val">#159877</div>
+                    <div class="clr-val">#1BC69B</div>
+                    <div class="clr-val">#2FE4B7</div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
